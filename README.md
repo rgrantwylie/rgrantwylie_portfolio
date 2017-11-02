@@ -1,3 +1,3 @@
 # Portfolio Website
 
-- [Webpage](https://github.com/rgrantwylie/rgrantwylie_portfolio/index.html)
+- [Webpage](file:///Users/ryangrant-wylie/Documents/GitHub/rgrantwylie_portfolio/index.html)
