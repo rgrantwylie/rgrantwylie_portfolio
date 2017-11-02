@@ -1,0 +1,148 @@
+/* ---- CSS RESET-----*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+    
+}
+
+body{
+    
+width: 100%;
+    max-width: 5120px;
+    font-family: arial, helvetica, sans-serif;
+    
+    background-color: #fff;
+    color: #333;
+    line-height: 1.8;  
+
+}
+
+#header{
+    width:100%;
+    height:648px;
+background-image:url("../img/home_header.png");
+    background-size: 100%;
+      background-repeat: no-repeat;
+    background-color: #f5f5f5;
+
+}
+
+#header-buttons{
+    
+    width: 25%;
+    height: 60px;
+    margin-top: 250px;
+    margin-left: 10%;
+}
+
+#header-button{
+    
+    width: 32%;
+    height: 60px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 0px 0px 40px #eee;
+}
+
+#workbox{
+    width:75%;
+    height:250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #00a0ad;
+    box-shadow: 0px 0px 2px #f4f4f4;
+}
+
+#workboxedge{
+    width:5%;
+    height:250px;
+    background-color: #00a0ad;
+    box-shadow: 0px 0px 10px #eee;
+    float: left;
+}
+
+#workboximage{
+    width:35%;
+    height:250px;
+    background-color: aqua;
+    box-shadow: 0px 0px 10px #eee;
+    float: left;
+}
+
+#workboxtext{
+    width:58%;
+    height:250px;
+    box-shadow: 0px 0px 10px #eee;
+    float:right;
+    background-color: #fff;
+}
+
+/* ---- LINKS-----*/
+
+a{
+    
+    color: #333;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    
+    color: #003da5;
+    border-bottom: 1px dotted;
+    
+}
+
+a:link{
+    
+    border-bottom: 1px;
+}
+
+img.menu-logo {
+    height: 57.5px;
+    width: 57.38px;
+    margin-left: 25%;;
+}
+
+/* ---- NAV-----*/
+
+nav{
+    
+    width: 50%;
+    height: 50px;
+background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    right: 0;
+    left: 0;
+    box-shadow: 0px 0px 40px #eee;
+    position: absolute;
+    border-color: #f5f5f5;
+    
+}
+
+nav ul{
+    width:100%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+
+nav ul li{
+    
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+nav a:hover{
+    
+    border-bottom: none;
+    color: #003da5
+    
+}
